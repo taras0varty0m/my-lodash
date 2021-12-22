@@ -1,8 +1,8 @@
 const chunk = (array: any[], size = 1): any[] => {
-  let arr: any[] = [];
+  const arr: any[] = [];
   let temp: any[] = [];
   let counter = 0;
-  for (let i of array) {
+  for (const i of array) {
     if (counter < size) {
       temp.push(i);
       counter++;

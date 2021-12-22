@@ -1,5 +1,5 @@
 {
-  "name": "my-lodash",
+  "name": "@taras0varty0m/my-lodash",
   "version": "1.0.0",
   "description": "lodash",
   "main": "lib/index.js",
