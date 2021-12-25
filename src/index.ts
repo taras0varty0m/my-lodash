@@ -4,4 +4,5 @@ import { concat } from './concat';
 import { difference } from './difference';
 import { differenceBy } from './differenceBy';
 import { drop } from './drop';
-export { chunk, compact, concat, difference, differenceBy, drop };
+import { dropRight } from './dropRight';
+export { chunk, compact, concat, difference, differenceBy, drop, dropRight };
