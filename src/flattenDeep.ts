@@ -1,11 +1,7 @@
-const flattenDeep = (array: any) => {
-  const arr: any[] = [];
+const arr: any[] = [];
+const flattenDeep = (array: any[]) => {
   array.forEach((element: any) => {
-    Array.isArray(element)
-      ? element.forEach((el) => {
-          arr.push(el);
-        })
-      : arr.push(element);
+    Array.isArray(element) ? flattenDeep(element) : arr.push(element);
   });
   return arr;
 };
