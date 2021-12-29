@@ -1,6 +1,6 @@
 {
   "name": "@taras0varty0m/my-lodash",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "lodash",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
